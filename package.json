@@ -1,0 +1,24 @@
+{
+  "name": "com.francodowho.fdpainters",
+  "version": "1.0.0",
+  "displayName": "FD Prop Scatter & Decal Projector",
+  "description": "Two Unity Editor painting tools: Prop Scatter (paint prefabs on surfaces from a palette) and Decal Projector (paint URP decals from a palette). Both support random yaw and scale, click-and-drag painting, and keypad palette switching.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Franco Dowho",
+    "email": "franco.dowho@gmail.com",
+    "url": "https://github.com/FrancoDowho"
+  },
+  "keywords": [
+    "editor",
+    "tools",
+    "prop-scatter",
+    "decal",
+    "urp",
+    "painter",
+    "level-design"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.0"
+  }
+}
