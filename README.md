@@ -2,19 +2,26 @@
 
 Two Unity Editor painting tools to make your life a bit easier when placing objects, using a custom palette of your choice.
 
-<!-- Add your GIFs here once you have them
-![](docs/prop-scatter.gif)
-![](docs/decal-projector.gif)
--->
+![](docs/clip-1.gif)
 
-## What's in the box
+## Includes:
 
 - **Prop Scatter** — click anywhere in the scene to place a prop from your palette. Switch the active prop from the window or with keypad `0`–`9`.
 - **Decal Projector** — same idea but for URP `DecalProjector` components. Includes a Y offset so the decal box goes deep enough to paint even uneven surfaces.
 
-Both tools support optional random **yaw** and **scale**, and both let you click-and-drag to paint continuously.
+Both tools support optional random **yaw** and **scale**, and both let you click-and-drag to paint continuously. You can also choose whether the tool picks up **colliders** or **mesh** as the paint surface.
 
-> Both tools work off the **collider** of whatever you're painting on. If you want to paint on the floor, that floor needs a collider.
+## Prop Scatter
+
+Paint prefabs on any surface. Assign your `PropPalette`, pick a prop from the list (or keypad `0`–`9`), and click in the Scene view. Hold and drag to paint continuously.
+
+![](docs/clip-2.gif)
+
+## Decal Projector
+
+Same flow, but places URP `DecalProjector` components from a `DecalPalette`. The Y offset pushes the projector's box into the surface so it always covers what you're aiming at, even on uneven geometry.
+
+![](docs/clip-3.gif)
 
 ## Install
 
