@@ -2,7 +2,7 @@
 
 Two Unity Editor painting tools to make your life a bit easier when placing objects, using a custom palette of your choice.
 
-![](docs/clip-1.gif)
+![](docs/clip-3.gif)
 
 ## Includes:
 
@@ -21,7 +21,7 @@ Paint prefabs on any surface. Assign your `PropPalette`, pick a prop from the li
 
 Same flow, but places URP `DecalProjector` components from a `DecalPalette`. The Y offset pushes the projector's box into the surface so it always covers what you're aiming at, even on uneven geometry.
 
-![](docs/clip-3.gif)
+![](docs/clip-1.gif)
 
 ## Install
 
